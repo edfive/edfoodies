@@ -231,19 +231,18 @@ body {
 
 .menu .row .menu-card p {
   /* position: relative; */
+  /* transform: scale(0); */
   display: inline-block;
-  transform: scale(0);
   color: white;
   font-weight: bold;
-  transition: 0.4s linear;
-  /* z-index: -99; */
+  /* transition: 0.4s linear; */
 }
 
 .menu .row .menu-card img:hover ~ p {
-  transform: scale(1);
-  color: black;
-  font-weight: bold;
-  transform: translate(0, -80px);
+  /* transform: scale(1); */
+  /* color: black; */
+  /* font-weight: bold; */
+  /* transform: translate(0, -80px); */
 }
 
 .menu .row .menu-card .menu-card-title {
@@ -265,7 +264,7 @@ body {
 
 .contact .row form {
   flex: 1 1 45rem;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
 }
 
@@ -313,16 +312,71 @@ footer .socials a {
   color: #fff;
   margin: 1rem;
 }
-
 footer .socials a:hover {
   color: var(--bg);
 }
 
-footer .links a {
+footer .container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+footer .footer-w {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer-w .links {
+  flex: 0 0 auto;
+  padding: 2rem 0;
+  text-align: left;
+  width: 20%;
+}
+
+footer .footer-w .links a {
+  display: block;
   color: #fff;
+  padding: 1rem 0;
+}
+footer .footer-w .links a:hover {
+  color: var(--bg);
+}
+
+footer .footer-w .kate {
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2rem 0;
+  text-align: left;
+  width: 20%;
+  flex-direction: column;
+}
+
+footer .footer-w .kate a {
+  color: #fff;
+  padding: 1rem 0;
+}
+footer .footer-w .kate a:hover {
+  color: var(--bg);
+}
+
+footer .footer-w .contact {
+  flex: 0 0 auto;
+  padding: 2rem 0;
+  text-align: left;
+  width: 20%;
 }
 
 /* Media Queries */
+
+@media (min-width: 1340px) {
+  footer .container {
+    max-width: 1340px;
+  }
+}
 
 /* Laptop */
 @media (max-width: 1366px) {
