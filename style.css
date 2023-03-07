@@ -363,11 +363,15 @@ footer .footer-w .kate a:hover {
   color: var(--bg);
 }
 
-footer .footer-w .contact {
+footer .footer-w .block3 {
   flex: 0 0 auto;
   padding: 2rem 0;
   text-align: left;
   width: 20%;
+}
+
+footer .footer-w .block3 p {
+  padding: 1rem 0;
 }
 
 /* Media Queries */
