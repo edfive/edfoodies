@@ -230,19 +230,9 @@ body {
 }
 
 .menu .row .menu-card p {
-  /* position: relative; */
-  /* transform: scale(0); */
   display: inline-block;
   color: white;
   font-weight: bold;
-  /* transition: 0.4s linear; */
-}
-
-.menu .row .menu-card img:hover ~ p {
-  /* transform: scale(1); */
-  /* color: black; */
-  /* font-weight: bold; */
-  /* transform: translate(0, -80px); */
 }
 
 .menu .row .menu-card .menu-card-title {
@@ -305,6 +295,10 @@ footer {
 }
 
 footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials h3 {
   padding: 1rem 0;
 }
 
