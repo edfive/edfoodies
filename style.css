@@ -321,7 +321,7 @@ footer .container {
 footer .footer-w {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 footer .footer-w .links {
@@ -369,6 +369,12 @@ footer .footer-w .block3 p {
 }
 
 /* Media Queries */
+
+@media (min-width: 576px) {
+  footer .container {
+    max-width: 576px;
+  }
+}
 
 @media (min-width: 1340px) {
   footer .container {
