@@ -152,6 +152,11 @@ body {
   padding: 8rem 8% 1.6rem;
 }
 
+.about {
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+
 .about .container h2,
 .menu .container h2,
 .contact h2 {
