@@ -41,12 +41,12 @@
       </section>
       <section class="about" id="about">
         <div class="container">
-          <h2 data-aos="fade-in"><span>Tentang</span> Roti</h2>
+          <h2 data-aos="fade-down" data-aos-delay="100"><span>Tentang</span> Roti</h2>
           <div class="row">
             <div class="about-img">
               <img src="img/stup-roti-1.jpg" alt="stup-roti-1" />
             </div>
-            <div class="content" data-aos="fade-in">
+            <div class="content" data-aos="fade-left" data-aos-offset="250" data-aos-delay="100">
               <h3>Kenapa Harus Memilih <span>ROTI</span></h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus nisi expedita
@@ -64,8 +64,8 @@
       </section>
       <section class="menu" id="menu">
         <div class="container">
-          <h2 data-aos="fade-in">MENU KAMI</h2>
-          <p data-aos="fade-in">
+          <h2 data-aos="fade-down" data-aos-delay="100">MENU KAMI</h2>
+          <p data-aos="fade-in" data-aos-offset="250" data-aos-delay="100">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem dolorum nihil doloremque
             debitis ipsam assumenda alias, cumque provident qui molestiae voluptatem libero at ullam
             deleniti quis optio sint reiciendis porro?
@@ -116,7 +116,7 @@
           ></iframe>
 
           <form action="">
-            <h2>Contact Us</h2>
+            <h2 data-aos="fade-down" data-aos-delay="100">Contact Us</h2>
 
             <div class="input-group">
               <i data-feather="user"></i>
@@ -175,7 +175,9 @@
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
     <script src="script.js"></script>
   </body>
