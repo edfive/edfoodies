@@ -243,6 +243,7 @@ body {
   padding-top: 3rem;
   margin: 1rem;
   background-color: #ebd7c0bb;
+  box-shadow: 2px 2px 10px rgb(101, 101, 101);
 }
 
 .menu .row .menu-card img {
