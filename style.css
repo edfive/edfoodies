@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=PT+Sans:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+
 :root {
   --primary: #b6895b;
   --bg: #010101;
@@ -84,6 +90,7 @@ body {
 .navbar .navbar-ex a {
   color: rgb(30, 30, 30);
   margin: 0 0.5rem;
+  cursor: pointer;
 }
 
 .navbar .navbar-ex a:hover {
@@ -163,11 +170,13 @@ body {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 2rem;
+  font-family: "Noto Serif", serif;
 }
 
-.about .container h2 span {
+.about .container h2 span,
+.menu .container h2 span {
   color: var(--primary);
-  font-style: italic;
+  font-family: "PT Sans", sans-serif;
 }
 
 .about .container .row {
@@ -203,6 +212,8 @@ body {
   font-size: 0.8rem;
   font-weight: 200;
   line-height: 2;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* MENU */
@@ -211,11 +222,12 @@ body {
   background-color: #282828;
 }
 
-.menu p,
-.contact p {
+.menu p {
   text-align: center;
   max-width: 40rem;
   margin: auto;
+  font-family: "Archivo", sans-serif;
+  line-height: 1.5;
 }
 
 .menu .row {
@@ -398,7 +410,6 @@ footer .footer-w .block3 p {
 }
 
 /* Media Queries */
-
 @media (min-width: 576px) {
   footer .container {
     max-width: 576px;
@@ -474,8 +485,8 @@ footer .footer-w .block3 p {
     font-size: 1.4rem;
   }
 
+  /* MENU */
   .menu .row {
-    border: 1px solid white;
     display: block;
   }
 
