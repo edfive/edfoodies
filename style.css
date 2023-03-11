@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Archivo", sans-serif;
   background-color: var(--bg);
   color: #fff;
 }
